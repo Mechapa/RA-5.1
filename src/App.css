@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  padding: 25px;
 }
 
 .App-logo {
@@ -35,4 +39,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-img-top{
+  /* background-color: #61dafb; */
+  background-image: url('https://cdn-icons-png.flaticon.com/512/300/300221.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 200px;
+  height: 300px;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-bottom: 15px;
+align-items: center;
+border: 1px solid gray;
+border-radius: 2px;
+}
+
+.btn{
+  width: 150px;
+  background-color: burlywood;
+  color: black;
+  height: 50px;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid gray;
 }
